@@ -1,6 +1,6 @@
 import type { Movie } from "../types/Movie";
 import { type EmblaOptionsType } from "embla-carousel";
-import EmblaCarousel from "./EmblaCArousel";
+import EmblaCarousel from "./EmblaCarousel";
 
 type Props = {
   movies: Movie[];
