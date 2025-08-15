@@ -39,7 +39,7 @@ const menuItems = [
 ];
 
 export default function SidebarMenu() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] =
     useState(1); // Home active by default
 
